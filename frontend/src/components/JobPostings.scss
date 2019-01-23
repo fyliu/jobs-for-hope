@@ -52,6 +52,12 @@
   display:flex;
   flex-direction: column;
   overflow-y: hidden;
+  flex: 1;
+  min-width: 0;
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   @extend %shared-padding;
 }
 
